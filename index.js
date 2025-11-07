@@ -5,3 +5,5 @@
 // git remote add origin <remote_repository_URL> [this links the local repository to a remote repository]
 // git push -u origin main [this pushes the committed changes to the remote repository]
 // git status [this shows the current status of the repository]
+
+// git diff main..feature -w [this shows the differences between the main branch and the feature branch, ignoring whitespace changes]
