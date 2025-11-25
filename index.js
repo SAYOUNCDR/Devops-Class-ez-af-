@@ -21,3 +21,5 @@
 // git diff main..feature -w [this shows the differences between the main branch and the feature branch, ignoring whitespace changes]
 
 // git log --oneline [this shows a concise log of commits]
+
+// This is from stash file
