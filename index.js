@@ -22,8 +22,12 @@
 
 // git log --oneline [this shows a concise log of commits]
 
-// This is from stash file
-
-
-// This will be stashed 
-// This will be in new stash
+// Stashing commands:
+// git stash [this saves changes temporarily without committing]
+// git stash pop [this reapplies the stashed changes and removes them from the stash list]
+// git stash list [this shows the list of stashed changes]
+// git stash apply stash@{0} [this reapplies a specific stash without removing it from the stash list]
+// git stash drop stash@{0} [this removes a specific stash from the stash list]
+// git stash clear [this removes all stashes from the stash list]
+// git stash show -p stash@{0} [this shows the changes in a specific stash]
+// git stash branch <branchname> stash@{0} [this creates a new branch from a specific stash and applies the stashed changes to it]
