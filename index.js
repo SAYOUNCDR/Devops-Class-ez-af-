@@ -31,3 +31,11 @@
 // git stash clear [this removes all stashes from the stash list]
 // git stash show -p stash@{0} [this shows the changes in a specific stash]
 // git stash branch <branchname> stash@{0} [this creates a new branch from a specific stash and applies the stashed changes to it]
+
+// Note: Replace <remote_repository_URL> and <branchname> with actual values as needed.
+
+// Rebase commands:
+// git checkout feature [this switches to the 'feature' branch]
+// git rebase main [this reapplies commits from the 'feature' branch on top of the 'main' branch]
+// git checkout main [this switches back to the 'main' branch]
+// git merge feature [this merges changes from the 'feature' branch into the 'main' branch]
