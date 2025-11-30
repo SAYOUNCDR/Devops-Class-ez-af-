@@ -39,3 +39,5 @@
 // git rebase main [this reapplies commits from the 'feature' branch on top of the 'main' branch]
 // git checkout main [this switches back to the 'main' branch]
 // git merge feature [this merges changes from the 'feature' branch into the 'main' branch]
+
+// Rebase is useful for keeping a clean commit history and avoiding unnecessary merge commits.
