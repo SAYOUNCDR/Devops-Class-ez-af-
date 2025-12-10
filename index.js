@@ -41,3 +41,11 @@
 // git merge feature [this merges changes from the 'feature' branch into the 'main' branch]
 
 // Rebase is useful for keeping a clean commit history and avoiding unnecessary merge commits.
+
+
+
+// What sre git tags?
+// Git tags are references that point to specific points in Git history. They are often used to mark release points (e.g., v1.0, v2.0) in the project's development. Tags can be lightweight (just a name pointing to a commit) or annotated (which include additional metadata like the tagger's name, email, date, and a message).
+// Example commands:
+// git tag v1.0 [this creates a lightweight tag named 'v1.0']
+// git tag -a v1.0 -m "Version 1.0" [this creates an annotated tag named 'v1.0' with a message]
